@@ -1,0 +1,141 @@
+[
+  {
+    "id": "agente_noticias",
+    "titulo": "Agente que me envía 5 noticias de IA cada día por Telegram",
+    "se_puede_mostrar": "completo (sin claves ni ID de chat)",
+    "problema": "Seguir la IA a diario toma tiempo y hay demasiado ruido.",
+    "solucion": "Un programa lee fuentes de noticias, Gemini elige las 5 más relevantes y las resume en español, y Telegram las entrega a las 8:00 a. m.",
+    "herramientas": [
+      "Python",
+      "API de Gemini",
+      "Telegram",
+      "GitHub Actions"
+    ],
+    "cifras_confirmadas": [
+      "5 noticias diarias",
+      "8:00 a. m. hora de Bogotá",
+      "7 fuentes"
+    ],
+    "cifras_por_confirmar": [
+      "costo mensual real"
+    ],
+    "pasos": [
+      "GitHub Actions despierta el programa cada día a las 8:00 a. m.",
+      "Lee las noticias de las últimas 24 horas y quita duplicados",
+      "Gemini elige las 5 más relevantes y las resume en español",
+      "Si el modelo está saturado, reintenta y usa un modelo de respaldo",
+      "Telegram entrega el mensaje; si todo falla, avisa"
+    ],
+    "historia": "Google retiró modelos de Gemini y el agente empezó a fallar con errores 503 y 404. Se arregló con reintentos, un modelo de respaldo y un aviso por Telegram cuando algo falla.",
+    "que_mostrar": "Captura del mensaje en Telegram, esquema de pasos, la historia del error.",
+    "que_no_mostrar": "Tokens, claves, ID del chat."
+  },
+  {
+    "id": "formulario_script",
+    "titulo": "Formulario de Google creado con un script",
+    "se_puede_mostrar": "completo (sin respuestas reales de personas)",
+    "problema": "Armar a mano un formulario largo con preguntas que cambian según la persona es lento y propenso a errores.",
+    "solucion": "Un Apps Script crea el formulario completo: 10 secciones, tipos de pregunta, saltos según la respuesta y hoja de respuestas.",
+    "herramientas": [
+      "Google Apps Script",
+      "Google Forms",
+      "Google Sheets"
+    ],
+    "cifras_confirmadas": [
+      "10 secciones",
+      "entre 31 y 35 ítems según el camino"
+    ],
+    "cifras_por_confirmar": [
+      "resultados de la encuesta (aún no se aplica)"
+    ],
+    "pasos": [
+      "Se pega el script en Apps Script y se ejecuta",
+      "Crea el formulario con sus 10 secciones",
+      "Configura los saltos: quien nunca usa IA se salta las preguntas de experiencia; quien no trabaja se salta las de negocio",
+      "Crea la hoja de respuestas y entrega los enlaces"
+    ],
+    "que_mostrar": "Capturas del formulario, el recorrido de dos personas distintas, un fragmento corto del script.",
+    "que_no_mostrar": "Respuestas reales de familiares o amigos."
+  },
+  {
+    "id": "correos_500",
+    "titulo": "Correos personalizados a más de 500 personas",
+    "se_puede_mostrar": "solo con datos inventados",
+    "problema": "Los correos masivos genéricos (como 'señor usuario, recuerde su fecha de pago') le llegan a todos, incluso a quien ya cumplió. Escribirlos uno a uno quita tiempo y produce errores y envíos a correos que no existen.",
+    "solucion": "El equipo ya había revisado cada documento y registrado en una base de datos qué le faltaba o debía ajustar a cada participante. Con esa base, un script envía a cada persona solo su mensaje personalizado y deja un registro de los correos que no se pudieron entregar.",
+    "herramientas": [
+      "IA (escribió el script a partir de mis instrucciones detalladas)",
+      "script de envío de correos"
+    ],
+    "cifras_confirmadas": [
+      "más de 500 correos personalizados",
+      "unas 4 horas para preparar el script, dejarlo como se quería y probarlo",
+      "el envío en sí no requiere tiempo de trabajo",
+      "el registro (log) muestra los correos que no se pudieron enviar"
+    ],
+    "cifras_por_confirmar": [
+      "si en este caso fue Apps Script o Python"
+    ],
+    "pasos": [
+      "El equipo revisa cada documento y registra lo que falta en una base de datos (proceso previo, humano)",
+      "El script lee la base de datos",
+      "Arma un correo para cada persona con su información",
+      "Envía y deja un registro con los envíos que fallaron"
+    ],
+    "que_mostrar": "Una hoja con unas 10 personas inventadas, la columna 'qué falta' y el correo generado.",
+    "que_no_mostrar": "La lista real, nombres de la convocatoria o la entidad, correos reales.",
+    "revision_humana": "Sí. El equipo revisó cada documento antes (la base de datos es su trabajo) y el script se probó primero con correos propios y una base de datos ficticia, antes de correr el real.",
+    "idea_comercial": "El cliente aporta la base de datos con lo que quiere personalizar (por ejemplo, quién no ha pagado) y el sistema envía el mensaje solo a quien corresponde.",
+    "no_afirmar": [
+      "que la IA o el script revisó los documentos",
+      "reducción de tiempo o ahorro (no hay medición del antes)",
+      "que no intervino ninguna persona"
+    ],
+    "ganchos_sugeridos": [
+      "500 correos y ninguno genérico: cada persona recibió solo lo que le faltaba.",
+      "¿Te llegan correos de 'señor usuario' que no son para ti? Así se evitan.",
+      "Lo que tu empresa ya sabe de cada cliente puede convertirse en un mensaje personal."
+    ]
+  },
+  {
+    "id": "informes_740",
+    "titulo": "740 informes automatizados para 148 instituciones",
+    "se_puede_mostrar": "solo con una institución inventada y datos sintéticos",
+    "problema": "Cinco tipos de informe para 148 instituciones son 740 documentos con gráficos, tablas y conclusiones. Hacerlos uno a uno es lento y propenso a errores.",
+    "solucion": "Plantillas por tipo de informe que se llenan con los datos de cada institución: gráficos, tablas y conclusiones. Los casos especiales (empates, un solo lugar, 100% en el primer lugar) tienen su propia redacción para que el texto siempre coincida con los datos.",
+    "herramientas": [
+      "Apps Script",
+      "Python",
+      "IA (escribió el código bloque a bloque con mis instrucciones)"
+    ],
+    "cifras_confirmadas": [
+      "5 tipos de informe",
+      "148 instituciones",
+      "740 informes"
+    ],
+    "cifras_por_confirmar": [],
+    "pasos": [
+      "Los datos de cada institución se procesan en mi computador",
+      "Se calculan variables y resultados por tipo de informe",
+      "Se generan gráficos, tablas y conclusiones, con redacción para los casos especiales",
+      "Se llena la plantilla y se guarda un informe por institución",
+      "Se revisan junto con el profesional encargado del tema y se entregan"
+    ],
+    "que_mostrar": "Una institución inventada (por ejemplo 'IE Los Cedros (ejemplo)') con datos sintéticos y el informe generado con ellos.",
+    "que_no_mostrar": "El informe real, nombres de instituciones, municipios, convenios, resultados reales, personas.",
+    "revision_humana": "Sí. Yo revisé los informes y, junto con el profesional encargado del tema, se ajustaron y revisaron los conceptos. También verifiqué que lo propuesto coincidiera con el esquema del informe, para cuidar la calidad de datos, gráficos y conclusiones.",
+    "valor_agregado": "Corrí la información bloque a bloque, probé y ajusté. Previne casos especiales que suelen romper una automatización: empates, un solo lugar, 100% en el primer lugar.",
+    "no_afirmar": [
+      "presupuestos, tarifas o pagos a profesionales (son internos): nunca mencionar ningún monto en pesos",
+      "porcentajes de ahorro (el 80% no tiene respaldo)",
+      "tiempos antes y después (no hay medición)",
+      "críticas al proceso anterior o a los profesionales",
+      "que la IA revisó o validó sola los informes"
+    ],
+    "ganchos_sugeridos": [
+      "740 informes, 148 instituciones. Así lo automaticé.",
+      "El detalle que rompe una automatización: ¿qué pasa si hay un empate?",
+      "¿Cuánto pagas hoy por elaborar un informe? ¿Y si necesitas 148?"
+    ]
+  }
+]

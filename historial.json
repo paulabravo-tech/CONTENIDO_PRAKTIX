@@ -1,1 +1,17 @@
-{"publicados": []}
+{
+  "publicados": [
+    {
+      "fecha": "2026-11-06",
+      "tipo": "caso",
+      "caso_id": "agente_noticias",
+      "angulo": "Historia",
+      "gancho": "¿Te aburre leer tantas noticias de inteligencia artificial cada día?"
+    },
+    {
+      "fecha": "2026-11-06",
+      "tipo": "educativa",
+      "tema": "Qué es automatizar y qué NO es (con un ejemplo cotidiano)",
+      "gancho": "Automatizar no es usar IA para todo. Te explico qué es."
+    }
+  ]
+}

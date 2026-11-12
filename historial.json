@@ -25,6 +25,19 @@
       "tipo": "educativa",
       "tema": "Tres tareas de oficina que una persona puede automatizar sin saber programar",
       "gancho": "¿Sabías que puedes automatizar tareas repetitivas sin saber programar?"
+    },
+    {
+      "fecha": "2026-11-12",
+      "tipo": "caso",
+      "caso_id": "correos_500",
+      "angulo": "Historia",
+      "gancho": "500 correos y ninguno genérico: cada persona recibió solo lo que le faltaba."
+    },
+    {
+      "fecha": "2026-11-12",
+      "tipo": "educativa",
+      "tema": "Por qué la IA se equivoca y cómo revisar lo que te entrega",
+      "gancho": "¿Por qué la inteligencia artificial inventa datos a veces?"
     }
   ]
 }

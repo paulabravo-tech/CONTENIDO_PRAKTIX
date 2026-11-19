@@ -51,6 +51,19 @@
       "tipo": "educativa",
       "tema": "Cómo pedirle algo a una IA para que te sirva: instrucciones claras en 3 pasos",
       "gancho": "¿Por qué la IA no te entiende a la primera?"
+    },
+    {
+      "fecha": "2026-11-19",
+      "tipo": "caso",
+      "caso_id": "agente_noticias",
+      "angulo": "Paso a paso",
+      "gancho": "Te muestro cómo recibo noticias de IA sin ruido."
+    },
+    {
+      "fecha": "2026-11-19",
+      "tipo": "educativa",
+      "tema": "Qué es una API explicado con la metáfora de un mesero",
+      "gancho": "¿Qué es una API y por qué la IA necesita una?"
     }
   ]
 }

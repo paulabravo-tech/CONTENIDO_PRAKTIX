@@ -64,6 +64,19 @@
       "tipo": "educativa",
       "tema": "Qué es una API explicado con la metáfora de un mesero",
       "gancho": "¿Qué es una API y por qué la IA necesita una?"
+    },
+    {
+      "fecha": "2026-11-23",
+      "tipo": "caso",
+      "caso_id": "formulario_script",
+      "angulo": "Paso a paso",
+      "gancho": "Te muestro cómo armé un formulario de 10 secciones con un script."
+    },
+    {
+      "fecha": "2026-11-23",
+      "tipo": "educativa",
+      "tema": "Qué es una hoja de cálculo conectada a un script, y para qué sirve",
+      "gancho": "¿Tus tablas de Excel o Google Sheets podrían trabajar solas?"
     }
   ]
 }

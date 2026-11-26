@@ -77,6 +77,19 @@
       "tipo": "educativa",
       "tema": "Qué es una hoja de cálculo conectada a un script, y para qué sirve",
       "gancho": "¿Tus tablas de Excel o Google Sheets podrían trabajar solas?"
+    },
+    {
+      "fecha": "2026-11-26",
+      "tipo": "caso",
+      "caso_id": "correos_500",
+      "angulo": "Paso a paso",
+      "gancho": "Lo que ya sabes de cada cliente puede volverse un mensaje personal y exacto."
+    },
+    {
+      "fecha": "2026-11-26",
+      "tipo": "educativa",
+      "tema": "Automatizar es como tener un ayudante que hace por ti lo repetitivo (y lo que NO es)",
+      "gancho": "¿Te pasas el día respondiendo los mismos mensajes uno por uno?"
     }
   ]
 }
